@@ -1,7 +1,16 @@
-.footer__copyright{
-  margin: 0;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.875rem;
-  line-height: 1.2;
+.footer__copyright {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+        margin-top: 48px;
+        line-height: 1;
+        max-width: 230px;
+    }
 }

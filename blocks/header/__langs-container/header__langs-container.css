@@ -1,12 +1,12 @@
-.header__langs-container{
-  display: flex;
-  list-style: none;
-  padding: 18px 0 0 0;
-  margin: 0;
+.header__langs-container {
+    display: flex;
+    list-style: none;
+    padding: 18px 0 0 0;
+    margin: 0;
 }
 
-@media screen and (max-width: 425px){
-  .header__langs-container{
-    padding: 14px 0 0 0;
-  }
+@media screen and (max-width: 424px) {
+    .header__langs-container {
+        padding: 14px 0 0 0;
+    }
 }
