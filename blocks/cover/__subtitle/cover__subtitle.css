@@ -10,7 +10,7 @@
     margin-top: 32px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .cover__subtitle {
         margin-top: 16px;
         font-size: 14px;
